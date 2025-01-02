@@ -32,6 +32,7 @@ function App() {
   useEffect(()=>{
     passwordGeberator()
   },[length,numberAllowed,charAllowed,passwordGeberator])
+  
   return (
     <div className="bg-gray-900 w-full h-screen p-10">
       <div className="w-full  bg-gray-700 max-w-md mx-auto shadow-md rounded-lg px-4 my-8 py-3 text-orange-50">
